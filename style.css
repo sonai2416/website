@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+
+ 
+
+.video-container video{
+
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    
+}
+.video-container video{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.content{
+    z-index: 1;
+    text-align: center;
+    
+}
+.content h1{
+
+    font-size: 50px;
+}
+.content a{
+
+    color: #000000;
+    
+}
+.content button{
+
+    background-color: rgb(154, 143, 141);
+    border-radius: 5px;
+}
+.story{
+    background: url(mermaid.jpg);
+
+    margin-top: 50px;
+}
+.story h1{
+    color: red;
+    text-decoration: underline solid;
+    margin-bottom: 10px;
+}
+.story{
+    color: white;
+}
+.story p::first-letter{
+
+    color: red;
+    font-size: 40px;
+}
+.story p{
+    margin-left: 15px;
+}
+.story2{
+
+    background-color: gray;
+    
+    
+}
+.story2 p::first-letter{
+
+    color: tomato;
+    font-size: 40px;
+}
+.story2 h1{
+    color: red;
+    text-decoration: underline solid;
+    margin-bottom: 10px;
+}
+.foot{
+     
+    margin-left: 625px;
+    
+}
+
+
+
+
+
+
+
+
+
